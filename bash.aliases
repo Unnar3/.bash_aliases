@@ -1,0 +1,20 @@
+# catkin_make
+alias cm="~/bin/catmake.sh"
+
+# sudo apt-get install
+alias install='sudo apt-get install'
+
+# sudo apt-get remove
+alias remove='sudo apt-get remove'
+
+# cd ..
+alias cd..='cd ..' 
+
+# find PID of process
+alias pid='ps ax | grep'
+
+# go to EXX/src/cloud
+alias exxrun='cd ~/catkin_ws/src/exx_wall_extraction/run/'
+
+# download subtitles
+alias sub="filebot -get-missing-subtitles"
